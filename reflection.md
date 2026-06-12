@@ -7,6 +7,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  1. Numbers should be between 1 and 100. The secret number was negative.
+  2. Guesses are not accurate. It was saying to guess lower even when I guessed lower than the secret number
+  3. When the player loses, they are prompted to click start new game. However a new game does not start unless the player refreshes. 
 
 **Bug Reproduction Log**
 

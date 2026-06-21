@@ -15,11 +15,18 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Input          | Expected Behavior    | Actual Behavior | Console Output / Error |
+|----------------|----------------------|-----------------|------------------------|
+|-50, 70, 90     |-Should instruct to go|-Instructs to go |-Inconsistent direction |
+|                |lower                 |higher           |on whether to guess high|
+|                |                      |                 |or low                  |
+|-Prompts user   |-Secret number should |-Secret number is|-Secret number does not |
+|to guess between|between 1 and 100     |negative         |adhere to constraints   |
+|1 and 100       |                      |                 |                        | 
+|-Prompts user to|-Game should reset and|-Clicking on 'New|-'New Game' does not    |
+|start new game  |prompt user to make a |Game' has no     |work after user has lost|
+|after loss      |new guess             |effect           |the game                |
+
 
 ---
 

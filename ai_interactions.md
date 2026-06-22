@@ -12,11 +12,9 @@
 I gave the agent the goal of creating tests using pytest. 
 **What did the agent do?**
 The agent revised the already created file test_game_logic.py. It wrote all the tests and I implemented them. I was able to run them successfully based on the agent's reccomendations.
-<!-- List the steps the agent took (files edited, commands run, etc.) -->
 
 **What did you have to verify or fix manually?**
 I did not initially have success with the tests the agent suggested and ran into a lot of hurdles. Therefore I tested small pieces one at a time instead of writing the whole file at once. This allowed me to have better control of the code and successfully check several edge cases.
-<!-- Describe anything the agent got wrong or that required human review -->
 
 ---
 

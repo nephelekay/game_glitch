@@ -6,18 +6,16 @@
 
 ## Agent Workflow (SF8)
 
-> Document your experience using an AI agent (e.g., Cursor Agent, Claude, Copilot) to make multi-step changes autonomously.
+> The agent I utilized was Claude Haiku 4.5. 
 
 **What task did you give the agent?**
-
-<!-- Describe the goal you asked the agent to accomplish -->
-
+I gave the agent the goal of creating tests using pytest. 
 **What did the agent do?**
-
+The agent revised the already created file test_game_logic.py. It wrote all the tests and I implemented them. I was able to run them successfully based on the agent's reccomendations.
 <!-- List the steps the agent took (files edited, commands run, etc.) -->
 
 **What did you have to verify or fix manually?**
-
+I did not initially have success with the tests the agent suggested and ran into a lot of hurdles. Therefore I tested small pieces one at a time instead of writing the whole file at once. This allowed me to have better control of the code and successfully check several edge cases.
 <!-- Describe anything the agent got wrong or that required human review -->
 
 ---
